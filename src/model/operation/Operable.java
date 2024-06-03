@@ -1,7 +1,7 @@
 package model.operation;
 
-public interface Operable {
-    public static String calculate() {
-        return null;
-    }
+import model.ComplexNumber;
+
+public abstract interface Operable {
+    public String calculate(ComplexNumber one, ComplexNumber two);
 }

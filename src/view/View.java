@@ -21,19 +21,19 @@ public class View {
             String operator = operationRequest();
             switch (operator) {
                 case "+":
-                    System.out.println("Результатом сложения: "
+                    System.out.println("Результат сложения: "
                             + controller.sum(one, two));
                     break;
                 case "-":
-                    System.out.println("Результатом вычитания: "
+                    System.out.println("Результат вычитания: "
                             + controller.subtraction(one, two));
                     break;
                 case "*":
-                    System.out.println("Результатом умножения: "
+                    System.out.println("Результат умножения: "
                             + controller.multiplication(one, two));
                     break;
                 case "/":
-                    System.out.println("Результатом деления: "
+                    System.out.println("Результат деления: "
                             + controller.devision(one, two));
                     break;
             }

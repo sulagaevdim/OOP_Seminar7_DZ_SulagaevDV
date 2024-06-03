@@ -10,7 +10,4 @@ public class Operation {
         this.one = one;
         this.two = one;
     }
-//    public static String calculate(ComplexNumber one, ComplexNumber two) {
-//        return null;
-//    }
 }

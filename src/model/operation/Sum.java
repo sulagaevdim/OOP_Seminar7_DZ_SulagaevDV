@@ -9,7 +9,8 @@ public class Sum extends Operation implements Operable {
         super(one, two);
     }
 
-    public static String calculate(ComplexNumber one, ComplexNumber two) {
+    @Override
+    public String calculate(ComplexNumber one, ComplexNumber two) {
         ComplexNumber sum = new ComplexNumber(one.getA() + two.getA(),one.getB() + two.getB());
         return sum.toString();
     }
